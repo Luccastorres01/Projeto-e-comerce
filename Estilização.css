@@ -1,0 +1,446 @@
+/*Formatação do nome do site*/
+.nome_site {
+	font-family: times new roman;
+	color: #A9A9A9 ;
+	text-decoration: none; 
+	font-size: 70px; 
+	text-shadow: 0.1em 0.1em 0.2em grey;
+	margin-left: 30px;
+}
+
+
+/*Formatação do canto direito do header*/
+.localização {
+	width: 30px; 
+	height: 30px; 
+	margin-left: 880px; 
+	font-color: grey;
+}
+
+/*Formatação da borda do menu*/
+.borda {
+	/*text-align: center;*/
+	background-color: black;
+	word-spacing: 25px;
+	margin-left: 35px;
+	margin-right: 35px;
+	padding: 9px;
+}
+
+/*Tamanho da imagem da seta ao lado dos itens do menu*/
+.setinha {
+	height: 17px;
+	width: 17px;
+}
+
+/*Animação e formatação dositens do menu*/
+.roupas {
+	font-family: arial;
+	color: white; 
+	text-decoration: none; 
+	margin-left: 50px; 
+	word-spacing: 20px;
+}
+
+.roupas:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	text-decoration: underline;
+	transition: 1s;
+}
+
+.acessórios {
+	font-family: arial;
+	color: white; 
+	text-decoration: none; 
+	margin-left: 50px; 
+	word-spacing: 20px;
+}
+
+.acessórios:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+.calçados {
+	font-family: arial;
+	color: white; 
+	text-decoration: none; 
+	margin-left: 50px; 
+	word-spacing: 20px;
+}
+
+.calçados:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+.bolsas {
+	font-family: arial;
+	color: white; 
+	text-decoration: none; 
+	margin-left: 50px; 
+	word-spacing: 20px;
+}
+
+.bolsas:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+/*Conteúdo da página*/
+
+.borda_conteúdo {
+	margin-left: 80px;
+	margin-right: 80px;
+	height: 800px;
+	background-color: #DCDCDC;
+	border-style: solid;
+	border-color:  #DCDCDC;
+}
+
+.produtos {
+	border-style: none;
+	border-color: white;
+	width: 400px;
+	height: 400px;
+	margin-left: 60px; 
+	padding: 9px;
+	float: left;
+	padding: 10px;
+}
+
+.produtos:hover {
+	transition: 0.3s;
+	box-shadow: 5px 5px 50px   #A9A9A9;
+}
+
+.cartão {
+	color: #00BFFF; 
+	font-family: arial; 
+	font-size: 20px; 
+	margin-left: 800px;
+}
+
+.entrega {
+	color: #DAA520; 
+	font-family: arial; 
+	font-size: 20px; 
+	margin-left: 800px; 
+}
+
+.botão_comprar {
+	color: white;
+	font-family: arial;
+	background: #1E90FF;
+	border-right-color: #228B22;
+	border-bottom-color: #228B22;
+	border-left-color: #228B22;
+	border-top-color: #228B22;
+	border-radius: 10px;
+	height: 80px;
+	word-spacing: 5px;
+	margin-left: 236px;
+	background-size: 100px;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.botão_comprar:hover {
+	background: #87CEEB;
+	transition: 0.3s;
+}
+
+.tamanho_quantidade {
+	float: left;
+
+}
+
+.formatação_tamanho {
+	font-family: arial; 
+	size: 10px; 
+	color: #0000FF; 
+	margin-left: 50px; 
+	margin-top: 80px;
+	float: left;
+	word-spacing: 10px;
+}
+
+.formatação_quantidade {
+	font-family: arial; 
+	size: 10px; 
+	color: #0000FF; 
+	margin-left: 230px;
+	margin-top: 80px;
+	float: left;
+}
+
+.P {
+	border-style: solid;
+	border-color: #87CEEB;
+	border-radius: 50px;
+	float: left;
+	padding: 9px;
+	width: 20px;
+	background-color: #87CEEB;
+	color: white;
+	font-family: arial;
+	margin-left: 730px;
+	float: left;
+}
+
+.P:hover {
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+	transition: 0.3s;
+}
+
+.PP {
+	border-style: solid;
+	border-color: #87CEEB;
+	border-radius: 50px;
+	float: left;
+	padding: 9px;
+	width: 20px;
+	background-color: #87CEEB;
+	color: white;
+	font-family: arial;
+	margin-left: 5px;
+}
+
+.PP:hover {
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+	transition: 0.3s;
+}
+
+.M {
+	border-style: solid;
+	border-color: #87CEEB;
+	border-radius: 50px;
+	float: left;
+	padding: 9px;
+	width: 20px;
+	background-color: #87CEEB;
+	color: white;
+	font-family: arial;
+	margin-left: 5px;
+}
+
+.M:hover {
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+	transition: 0.3s;
+}
+
+.G {
+	border-style: solid;
+	border-color: #87CEEB;
+	border-radius: 50px;
+	float: left;
+	padding: 9px;
+	width: 20px;
+	background-color: #87CEEB;
+	color: white;
+	font-family: arial;
+	margin-left: 5px;
+}
+
+.G:hover {
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+	transition: 0.3s;
+}
+
+.GG {
+	border-style: solid;
+	border-color: #87CEEB;
+	border-radius: 50px;
+	float: left;
+	padding: 9px;
+	width: 20px;
+	background-color: #87CEEB;
+	color: white;
+	font-family: arial;
+	word-spacing: 5px; 
+	margin-left: 5px;
+}
+
+.GG:hover {
+	background-color: #1E90FF;
+	border-color: #1E90FF;
+	transition: 0.3s;
+}
+
+.input_quantidade {
+	background-color: #87CEEB;
+	padding: 9px;
+	font-family: arial;
+	color: white;
+	border-style: none;
+	border-radius: 15px;
+	transition: 0.3s;
+	float: left;
+	margin-left: 65px;
+}
+
+.input_quantidade:hover{
+	background-color: #1E90FF;
+}
+
+.escolher {
+	padding: 9px;
+	background-color: #0000FF;
+	color: white;
+	font-family: arial;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #0000FF;
+	margin-left: 980px;
+} 
+
+.escolher:hover {
+	background-color: #00008B;
+	border-color: #00008B;
+	transition: 0.08s;
+}
+
+.borda_compra1 {
+	margin-left: 90px;
+	margin-right: 90px;
+	border-style: dashed;
+	border-color: #A9A9A9;
+	border-radius: 25px;
+	border-width: 9px;
+
+}
+
+.borda_compra2 {
+	border-style: solid;
+	border-color: #D3D3D3;
+	background-color: #D3D3D3;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 25px;
+	padding: 200px;
+}
+
+.input {
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	font-family: arial;
+	width: 200px;
+	height: 25px;
+}
+
+.botões_de_compra {
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: grey;
+	background-color: grey;
+}
+
+.botões_de_compra:hover {
+	background-color:  #A9A9A9;
+	border-color: #A9A9A9;
+}
+
+.link_continuar {
+	margin-left: 800px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: grey;
+	background-color: grey;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.link_continuar:hover {
+	background-color: #A9A9A9;
+	border-color: #A9A9A9;
+}
+
+/*Formatação da parte inferior da página com links de redes sociais*/ 
+.fim {
+	text-align: center;
+	background-color: black;
+	word-spacing: 25px;
+	margin-left: 35px;
+	margin-right: 35px;
+	padding: 9px;
+
+}
+
+.facebook:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 26px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	transition: 0.5s;
+	border-radius: 50%;
+
+}
+
+.twitter:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 26px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	transition: 0.5s;
+	border-radius: 50%;
+}
+
+.instagram:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 26px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	transition: 0.5s;
+	border-radius: 50%;
+}
+
+.whatsapp:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 26px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	transition: 0.5s;
+	border-radius: 50%;
+}
+
+.youtube:hover {
+	padding-left: 10px;
+	padding-right: 9px;
+	padding-top: 26px;
+	padding-bottom: 11px;
+	background-color: #DCDCDC;
+	transition: 0.5s;
+	border-radius: 50%;
+}
